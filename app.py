@@ -66,7 +66,7 @@ def recommend(movie):
 # ----------------------------------------------------------
 # Streamlit UI
 # ----------------------------------------------------------
-st.set_page_config(page_title="Movie Recommender", layout="wide")
+st.set_page_config(page_title="MovieMatrix AI", layout="wide")
 
 st.markdown(
     """
@@ -92,3 +92,4 @@ if st.button("Recommend"):
         with col:
             st.image(posters[idx+3], use_container_width=True)
             st.write(f"**{names[idx+3]}**")
+
